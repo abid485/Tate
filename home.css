@@ -189,3 +189,105 @@ strong{
 
 
 
+                /* This is footer area */
+
+                .site-footer {
+                    background-color: #222;
+                    color: #bbb;
+                    padding: 40px 0;
+                    font-size: 14px;
+                }
+                
+                .footer-container {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    max-width: 1200px;
+                    margin: 0 auto;
+                }
+                
+                .footer-section {
+                    flex: 1;
+                    min-width: 200px;
+                    margin: 20px 0;
+                }
+                
+                .footer-section h4 {
+                    color: #fff;
+                    margin-bottom: 15px;
+                }
+                
+                .footer-section ul {
+                    list-style: none;
+                    padding: 0;
+                }
+                
+                .footer-section ul li {
+                    margin-bottom: 10px;
+                }
+                
+                .footer-section ul li a {
+                    color: #bbb;
+                    text-decoration: none;
+                    transition: color 0.3s ease;
+                }
+                
+                .footer-section ul li a:hover {
+                    color: #fff;
+                }
+                
+                .newsletter input[type="email"] {
+                    padding: 10px;
+                    border: none;
+                    border-radius: 3px;
+                    margin-right: 10px;
+                    width: 70%;
+                    max-width: 200px;
+                }
+                
+                .newsletter button {
+                    padding: 10px 20px;
+                    background-color: #007bff;
+                    color: #fff;
+                    border: none;
+                    border-radius: 3px;
+                    cursor: pointer;
+                }
+                
+                .newsletter button:hover {
+                    background-color: #0056b3;
+                }
+                
+                .social a {
+                    color: #bbb;
+                    margin-right: 15px;
+                    font-size: 20px;
+                    transition: color 0.3s ease;
+                }
+                
+                .social a:hover {
+                    color: #fff;
+                }
+                
+                .payment-methods img {
+                    margin-right: 10px;
+                    max-width: 50px;
+                }
+                
+                .footer-bottom {
+                    text-align: center;
+                    padding: 20px 0;
+                    border-top: 1px solid #444;
+                    margin-top: 20px;
+                }
+                
+                .footer-bottom p {
+                    margin: 0;
+                    color: #bbb;
+                }
+                
+                .footer-bottom p strong {
+                    color: #fff;
+                }
+                          
+                /* This is footer area */
